@@ -5,4 +5,3 @@ RUN yarn
 COPY . ./
 EXPOSE 30
 RUN yarn build
-RUN yarn start
