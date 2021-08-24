@@ -9,4 +9,3 @@ WORKDIR /app/react-express-app/frontend
 RUN yarn
 WORKDIR /app/react-express-app/build/frontend
 RUN yarn run build
-RUN yarn run start
